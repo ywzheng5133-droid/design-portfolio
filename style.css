@@ -1,5 +1,6 @@
+@font-face{font-family:Manrope;src:url("assets/fonts/manrope.ttf") format("truetype");font-style:normal;font-weight:200 800;font-display:swap}
 *{box-sizing:border-box}
-:root{color-scheme:light;--ink:#151515;--muted:#595959;--line:#d0d0cd;--paper:#fafaf8;--radius:6px;--type:"SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+:root{color-scheme:light;--ink:#151515;--muted:#595959;--line:#d0d0cd;--paper:#fafaf8;--radius:6px;--type:Manrope,"SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 var(--type)}
 a{color:inherit;text-decoration:none}
 a:focus-visible{outline:2px solid;outline-offset:5px}
@@ -315,7 +316,7 @@ article h4,article h5{font-weight:500}
 
 .about-gallery{background:#fff;border:1px solid #eaeaea}
 .about-window-chrome{padding:12px 16px 0;color:#eaeaea;font-size:13px;letter-spacing:2px}
-.about-conversation{width:min(58%,700px);margin:auto;padding:34px 0 42px;font-family:system-ui,"PingFang SC",sans-serif}
+.about-conversation{width:min(58%,700px);margin:auto;padding:34px 0 42px;font-family:var(--type)}
 .about-question{display:flex;flex-direction:column;align-items:flex-end}
 .about-speaker{display:block;color:#696969;font-size:13px;margin-bottom:7px}
 .about-question .about-speaker{padding-right:16px}
@@ -332,3 +333,5 @@ article h4,article h5{font-weight:500}
 .site-brand img{flex:none}
 .site-brand strong{font-weight:700}
 @media(max-width:420px){.site-brand{font-size:13px;gap:6px}.site-brand img{width:24px;height:24px}}
+
+.about-gallery-controls button{font-family:var(--type)}
