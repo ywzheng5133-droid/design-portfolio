@@ -335,3 +335,5 @@ article h4,article h5{font-weight:500}
 @media(max-width:420px){.site-brand{font-size:13px;gap:6px}.site-brand img{width:24px;height:24px}}
 
 .about-gallery-controls button{font-family:var(--type)}
+
+footer .wrap{justify-content:center;text-align:center}
