@@ -341,7 +341,7 @@ footer .wrap{justify-content:center;text-align:center}
 
 .ai-part .journey-row{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
 .ai-part .journey-copy .plate{margin-top:14px}
-.journey-example{min-width:0}
+.journey-example{min-width:0;align-self:stretch;background:#fff;border-radius:var(--radius);padding:12px}
 .journey-example .num:empty{display:none}
 @media(max-width:680px){.ai-part .journey-row{grid-template-columns:1fr}}
 
