@@ -341,10 +341,10 @@ footer .wrap{justify-content:center;text-align:center}
 
 
 .ai-part .journey-row{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
-.ai-part .journey-copy .plate{margin-top:14px}
+.ai-part .journey-copy .plate{margin-top:6px}
 @media(min-width:681px){
   .journey-copy{align-self:stretch;display:flex;flex-direction:column}
-  .ai-part .journey-copy .plate{margin-top:auto;padding-top:14px}
+  .journey-copy dl{margin-top:auto;padding-top:12px}
 }
 .journey-example{min-width:0;align-self:stretch;display:flex;flex-direction:column;justify-content:center;background:#fff;border-radius:var(--radius);padding:12px}
 .journey-example .num:empty{display:none}
