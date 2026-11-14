@@ -338,8 +338,9 @@ article h4,article h5{font-weight:500}
 
 footer .wrap{justify-content:center;text-align:center}
 
-.journey-media{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0}
-.journey-media .plate a{aspect-ratio:2;position:relative}
-.journey-media .plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
-.journey-media .num:empty{display:none}
-@media(max-width:680px){.journey-media{grid-template-columns:1fr}}
+
+.ai-part .journey-row{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
+.ai-part .journey-copy .plate{margin-top:14px}
+.journey-example{min-width:0}
+.journey-example .num:empty{display:none}
+@media(max-width:680px){.ai-part .journey-row{grid-template-columns:1fr}}
