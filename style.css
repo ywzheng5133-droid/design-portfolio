@@ -356,3 +356,5 @@ footer .wrap{justify-content:center;text-align:center}
 .hero-to{color:var(--muted)}
 .hero-end{font-size:.91em}
 .hero-end em{color:#8030b0}
+
+.bc-preview-video{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}
