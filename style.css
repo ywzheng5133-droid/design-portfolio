@@ -100,7 +100,7 @@ article .chapter h2{margin:0;padding:18px;background:#efefed;font-size:clamp(20p
 .journey-grid{display:grid;gap:18px;margin:22px 0 36px}
 .journey-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:22px;align-items:start;background:#efefed;border-radius:var(--radius);padding:20px}
 .journey-copy .meta,.journey-copy p,.journey-copy dt{color:var(--muted)}
-.ai-part .journey-copy h4{margin:4px 0 6px;font-size:clamp(17px,2.1vw,23px)}
+.ai-part .journey-copy h4{margin:4px 0 2px;font-size:clamp(17px,2.1vw,23px)}
 .ai-part .journey-copy p{margin:0;font-size:14px;line-height:1.55}
 .journey-copy dl{margin:12px 0 0;font-size:14px}
 .journey-copy dt{font-size:12px}
