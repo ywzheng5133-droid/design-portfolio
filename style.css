@@ -344,3 +344,5 @@ footer .wrap{justify-content:center;text-align:center}
 .journey-example{min-width:0}
 .journey-example .num:empty{display:none}
 @media(max-width:680px){.ai-part .journey-row{grid-template-columns:1fr}}
+
+.ai-part .journey-copy figcaption{display:none}
