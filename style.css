@@ -351,3 +351,8 @@ footer .wrap{justify-content:center;text-align:center}
 @media(max-width:680px){.ai-part .journey-row{grid-template-columns:1fr}}
 
 .ai-part .journey-copy figcaption{display:none}
+
+.hero .hero-headline{font:400 clamp(33.6px,7vw,100.8px)/.88 Georgia,"Times New Roman",serif;letter-spacing:-.035em}
+.hero-to{color:var(--muted)}
+.hero-end{font-size:.91em}
+.hero-end em{color:#8030b0}
